@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style/modal.css">
+
+
+    <title>FILMEFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+         <a class="logo" href="index.html">FILMEFLIX</a>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="series.html">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">CASTELO DE CARTAS</h3>
+                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+
+                <div class="botoes">
+                <button role="button" class="botao" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">
+                    <i class="fas fa-play"></i>
+                    ASSISTAR AGORA</button>
+
+                    <button role="button" class="botao" onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-black">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES</button>
+                </div>
+            </div>
+        </div>
+
+   <!-----------------Modal mais Informações-------------------------------> 
+   <div id="id02" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id02').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2 class="logo">FILMEFLIX</h2>
+      </header>
+      <div class="info">
+          <img src="img/mini10.jpg" alt="" style="width:20%;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at accusamus alias reprehenderit quisquam? Et, quod expedita explicabo illo porro eveniet iste consequuntur nobis. Repellat, quisquam. Ipsam vero alias quam.</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Menhores Filmes</p>
+      </footer>
+    </div>
+</div>    
+
+  <!-------------Modal filmeflix--------------------------------------->      
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+              <header class="w3-container w3-teal"> 
+                <span onclick="document.getElementById('id01').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2 class="logo">FILMEFLIX</h2>
+              </header>
+              <video class="videosrc" width="600" height="440" controls>
+                    <source src="video/video.mp4" type="video/mp4">
+              </video>
+
+              <footer class="w3-container w3-teal">
+                <p>Menhores Filmes</p>
+              </footer>
+            </div>
+        </div>
+    </main>
+    <!-------------Fim Modal filmeflix---------------->  
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
+                </div>
+        </div>
+    </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                     <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
+                </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+ 
+
+ 
+</body>
+</html>
